@@ -22,7 +22,7 @@ headers = {
 
     'x-rapidapi-host': "deezerdevs-deezer.p.rapidapi.com",
 
-    'x-rapidapi-key': "8d8466e673msh79c6f787e83a8afp14d89fjsn3ca0b2b06bb0"
+    'x-rapidapi-key': "59504a1136mshcb8145a2ef1f926p1e8953jsnee9dda5f0247"
 
     }
 
