@@ -1,9 +1,5 @@
 #!flask/bin/python
 
-
-
-# Import necessay libraries 
-
 from flask import Flask, jsonify,  request, abort, make_response
 
 
