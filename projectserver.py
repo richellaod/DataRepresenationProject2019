@@ -80,7 +80,7 @@ def findById(id):
 
 	if len(foundId) == 0:
 
-		return jsonify( { 'deezers' : '' }),204
+		return jsonify( { 'deezers' : '' }),200
 
 
 
@@ -90,7 +90,7 @@ def findById(id):
 
 # Use method POST to input new data	
 
-# λ  curl -i -H "Content-Type:application/json" -X POST -d "{\"id\":1000000,\"Title\":\"Up\",\"Artist\":\"Punto\",\"Album\":\"PPp\",\"duration\":55,\"rank\":505312}" http://localhost:5000/deezer
+# λ  curl -i -H "Content-Type:application/json" -X POST -d  http://localhost:5000/deezer
 
 @app.route('/deezers', methods=['POST'])
 
@@ -128,7 +128,7 @@ def createDeezer():
 
 # Use method PUT to dataset	
 
-#curl -i -H "Content-Type:application/json" -X PUT -d "{\"title\":\"Fiesta\"}" http://localhost:5000/deezers/123
+#curl -i -H "Content-Type:application/json" -X PUT -d http://localhost:5000/deezers/123
 
 @app.route('/deezers/<int:id>', methods =['PUT'])
 
