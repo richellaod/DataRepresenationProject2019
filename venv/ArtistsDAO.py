@@ -10,7 +10,7 @@ class ArtistsDAO:
 
 	    self.db = mysql.connector.connect(        
 
-		host="127.0.0.1",
+		host="localhost",
 
 		user="root",
 
@@ -18,7 +18,7 @@ class ArtistsDAO:
 
 		auth_plugin='mysql_native_password',        
 
-		database="datarepresentation"
+		database="artists"
 
 		)     
 
