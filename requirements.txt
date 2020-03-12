@@ -322,7 +322,7 @@ prompt-toolkit==2.0.10
 
 protobuf==3.10.1
 
-psutil==5.6.5
+psutil==5.6.6
 
 py==1.8.0
 
