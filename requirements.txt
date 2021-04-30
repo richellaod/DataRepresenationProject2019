@@ -512,7 +512,7 @@ ujson==1.35
 
 unicodecsv==0.14.1
 
-urllib3==1.25.7
+urllib3==1.25.8
 
 vpython==7.5.2
 
