@@ -394,7 +394,7 @@ pytz==2019.3
 
 PyWavelets==1.1.1
 
-pywin32==225
+pywin32==301
 
 pywin32-ctypes==0.2.0
 
