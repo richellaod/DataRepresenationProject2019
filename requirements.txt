@@ -192,7 +192,7 @@ jupyter-latex-envs==1.4.6
 
 jupyter-nbextensions-configurator==0.4.1
 
-jupyter-server-proxy==1.2.0
+jupyter-server-proxy==3.2.1
 
 jupyterlab==1.2.3
 
