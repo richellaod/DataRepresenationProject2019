@@ -344,7 +344,7 @@ Pygments==2.4.2
 
 pygpu==0.7.6
 
-PyJWT==1.7.1
+PyJWT==2.4.0
 
 pylint==2.4.4
 
